@@ -11,14 +11,12 @@ public class Order {
         this.code = code;
         this.totalValue = totalValue;
     }
-    public Order(String code) {
-        this.code = code;
-    }
 
     @Override
     public String toString() {
         return "Order={" +
-                "code='" + code + "'" +
+                "code='" + code + "'," +
+                "totalValue=" + totalValue +
                 "}";
     }
 
