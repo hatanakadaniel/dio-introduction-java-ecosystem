@@ -12,6 +12,7 @@ import java.math.BigDecimal;
  */
 public class Order {
 
+    // representa o código do pedido
     private final String code;
     private final BigDecimal totalValue;
 
